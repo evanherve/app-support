@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NaviBeat Support</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1>NaviBeat Support</h1>
+    <p class="muted">A native iPhone and iPad player for your own Navidrome or Subsonic-compatible music server.</p>
+    <nav class="lang"><a href="#fr">Français</a> · <a href="privacy/">Privacy Policy</a></nav>
+  </header>
+
+  <div class="card">
+    <strong>Need help or found a problem?</strong><br>
+    Email <a href="mailto:evan.herve@gmail.com?subject=NaviBeat">evan.herve@gmail.com</a>. Please include your iPhone or iPad model, iOS version, your server software and version (shown in NaviBeat's Settings) and, if it helps, a screenshot.
+  </div>
+
+  <h2>Frequently asked questions</h2>
+
+  <h3>What do I need to use NaviBeat?</h3>
+  <p>A music server you run or have an account on: <a href="https://www.navidrome.org">Navidrome</a> is recommended, and other servers that speak the Subsonic API also work. NaviBeat does not sell or provide music. To try the app without a server, sign in to Navidrome's public demo: server <code>https://demo.navidrome.org</code>, username <code>demo</code>, password <code>demo</code>.</p>
+
+  <h3>Why can't I connect with an http:// address?</h3>
+  <p>For your security, NaviBeat only uses unencrypted <code>http://</code> on your local network. A server reachable over the internet needs an <code>https://</code> address, for example behind a reverse proxy with a certificate.</p>
+
+  <h3>Does NaviBeat store my password?</h3>
+  <p>No. NaviBeat signs in with the Subsonic token method and keeps only the server address, your username and a salted token, in the iOS Keychain.</p>
+
+  <h3>Can I listen offline?</h3>
+  <p>Yes. Download songs, albums or playlists, or turn on automatic downloads of your favorites and chosen playlists in Settings. Downloaded music plays without a connection, and offline mode shows only what is on your device. You can set a storage limit and whether downloads may use mobile data.</p>
+
+  <h3>I have several libraries on my server. Can I switch between them?</h3>
+  <p>Yes. Pick the library from the switcher in Home or Library; browsing, search and shuffle then stay within that library.</p>
+
+  <h3>Are my plays, favorites and ratings sent to my server?</h3>
+  <p>Yes. Plays are reported ("scrobbled") to your server unless you turn off Scrobble Plays in Settings, and favorites, ratings, playlists and bookmarks are saved on your server so they follow you to other apps.</p>
+
+  <h3>Does NaviBeat work with CarPlay?</h3>
+  <p>Not yet. Playback shows on the lock screen, Control Center, AirPlay devices and headphone controls.</p>
+
+  <hr>
+
+  <section id="fr" lang="fr">
+    <h1>Assistance NaviBeat</h1>
+    <p class="muted">Un lecteur natif pour iPhone et iPad pour votre propre serveur de musique Navidrome ou compatible Subsonic.</p>
+    <nav class="lang"><a href="privacy/#fr">Politique de confidentialité</a></nav>
+
+    <div class="card">
+      <strong>Besoin d'aide ou un problème ?</strong><br>
+      Écrivez à <a href="mailto:evan.herve@gmail.com?subject=NaviBeat">evan.herve@gmail.com</a>, en indiquant votre modèle d'iPhone ou d'iPad, la version d'iOS, le logiciel et la version de votre serveur (affichés dans les Réglages de NaviBeat) et, si utile, une capture d'écran.
+    </div>
+
+    <h2>Questions fréquentes</h2>
+
+    <h3>De quoi ai-je besoin pour utiliser NaviBeat ?</h3>
+    <p>D'un serveur de musique que vous hébergez ou sur lequel vous avez un compte : <a href="https://www.navidrome.org">Navidrome</a> est recommandé, et les autres serveurs compatibles avec l'API Subsonic fonctionnent aussi. NaviBeat ne vend ni ne fournit de musique. Pour essayer l'app sans serveur, connectez-vous à la démo publique de Navidrome : serveur <code>https://demo.navidrome.org</code>, utilisateur <code>demo</code>, mot de passe <code>demo</code>.</p>
+
+    <h3>Pourquoi une adresse en http:// ne fonctionne pas ?</h3>
+    <p>Pour votre sécurité, NaviBeat n'utilise le <code>http://</code> non chiffré que sur votre réseau local. Un serveur accessible par internet doit avoir une adresse en <code>https://</code>, par exemple derrière un reverse proxy avec un certificat.</p>
+
+    <h3>NaviBeat enregistre-t-elle mon mot de passe ?</h3>
+    <p>Non. NaviBeat se connecte avec la méthode par jeton de Subsonic et ne garde que l'adresse du serveur, votre nom d'utilisateur et un jeton salé, dans le trousseau d'iOS.</p>
+
+    <h3>Puis-je écouter hors ligne ?</h3>
+    <p>Oui. Téléchargez des morceaux, des albums ou des playlists, ou activez dans les Réglages le téléchargement automatique de vos favoris et des playlists choisies. La musique téléchargée se lit sans connexion, et le mode hors ligne n'affiche que ce qui est sur l'appareil. Vous pouvez fixer une limite de stockage et autoriser ou non les données cellulaires.</p>
+
+    <h3>J'ai plusieurs bibliothèques sur mon serveur. Puis-je passer de l'une à l'autre ?</h3>
+    <p>Oui. Choisissez la bibliothèque dans le sélecteur de l'Accueil ou de la Bibliothèque ; la navigation, la recherche et la lecture aléatoire restent alors dans cette bibliothèque.</p>
+
+    <h3>Mes écoutes, favoris et notes sont-ils envoyés à mon serveur ?</h3>
+    <p>Oui. Les écoutes sont signalées (« scrobble ») à votre serveur, ce que vous pouvez désactiver dans les Réglages, et les favoris, notes, playlists et signets sont enregistrés sur votre serveur pour vous suivre dans vos autres apps.</p>
+
+    <h3>NaviBeat fonctionne-t-elle avec CarPlay ?</h3>
+    <p>Pas encore. La lecture s'affiche sur l'écran verrouillé, dans le Centre de contrôle, sur les appareils AirPlay et avec les commandes des écouteurs.</p>
+  </section>
+
+  <footer>NaviBeat · Evan HERVE · <a href="../">All apps</a></footer>
+</main>
+</body>
+</html>
